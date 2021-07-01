@@ -16,7 +16,7 @@ sidebar:
     pf: "Profil de Abdelhafid ELAZOUZI"
     altfr: "Profil en Français"
     alten: "Profile in English"
-    link: "https://fr.abdelhafidelazouzi.github.io"
+    link: "https://abdelhafidelazouzi.github.io"
     img: "Abdelhafid ELAZOUZI.png"
     imgw: "320"
     imgh: "320"
@@ -34,8 +34,8 @@ sidebar:
 ####################################  links  ################################################
 #############################################################################################
     name: "Abdelhafid ELAZOUZI"
-    linkfr: "https://fr.abdelhafidelazouzi.github.io"
-    linken: "https://en.abdelhafidelazouzi.github.io"
+    linkfr: "https://abdelhafidelazouzi.github.io"
+    linken: "https://abdelhafidelazouzi.github.io/en"
     email: "hafid.elazouzi@gmail.com"
     phone: "+212 6 70 09 96 44"
     website: #blog.webjeda.com #do not add http://
