@@ -64,22 +64,12 @@
   <![endif]-->
 
 
- <!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-199735645-1', 'auto');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
+ 
  
  
  
   <script src="{{ site.baseurl }}/assets/js/jquery-1.12.4.min.js"></script>
-   
+  <script src="{{ site.baseurl }}/assets/js/analytics.js"></script>
   <script>
     {% if sidebar.htmllang == "fr-FR" %}
       $('head').append('<meta property="og:locale" content="fr_FR">');
@@ -90,16 +80,13 @@ ga('send', 'pageview');
     {% endif %}
   </script>
 
-
-<!-- End Google Analytics 
-<script src="{{ site.baseurl }}/assets/js/js.js?id=G-YCTV1NZ3CK"></script>
+ <!-- Google Analytics -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  
-  gtag('config', 'G-YCTV1NZ3CK');
-</script>--> 
+ga('create', 'UA-199735645-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/me.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font.css">
