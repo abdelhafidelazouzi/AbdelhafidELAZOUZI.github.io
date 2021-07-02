@@ -6,6 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-Language" content="{{ sidebar.htmllang }}">
+  <meta http-equiv="Content-security-policy" content="default-src 'self'">
 
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -84,20 +85,6 @@ ga('send', 'pageview');
       $('head').append('<meta property="og:locale" content="en_EN">');
       $('head').append('<meta property="og:locale:alternate" content="fr_FR">');
     {% endif %}
-    
-    addEventListener('fetch', event=> {
-        event.respondWith(handleRequest(event.request))
-    })
-    async function handleRequest(request) {
-        let response=await fetch(request)
-        let newHeaders=new Headers(response.headers)
-        newHeaders.set("Permissions-Policy","interest-cohort=()")
-        return new Response(response.body, {
-            status: response.status,
-            statusText: response.statusText,
-            headers: newHeaders
-        })
-    }
   </script>
 
 
