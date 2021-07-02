@@ -35,7 +35,7 @@ var k,l,n=(d.ownerDocument&&d.ownerDocument.defaultView||window).document,q=null
 
 var p=B.getElementsByTagName("script")[0]||B.body||B.head;
 
-p.parentNode.insertAdjacentElement(d,p);
+d.parentNode.appendChild(p);
 return d},Fb=function(){if(xb){var a=xb.toLowerCase();if(0===a.indexOf("https://"))return 2;if(0===a.indexOf("http://"))return 3}return 1},Gb=function(a,b){var c=B.createElement("iframe");
 
 c.height="0";c.width="0";c.style.display="none";c.style.visibility="hidden";var d=B.body&&B.body.lastChild||B.body||B.head;d.parentNode.insertBefore(c,d);Db(c,b);void 0!==a&&(c.src=a);return c},Hb=function(a,b,c){var d=new Image(1,1);d.onload=function(){d.onload=null;b&&b()};d.onerror=function(){d.onerror=null;c&&c()};d.src=a;return d},Ib=function(a,b,c,d){a.addEventListener?a.addEventListener(b,c,!!d):a.attachEvent&&a.attachEvent("on"+b,c)},Jb=function(a,b,c){a.removeEventListener?a.removeEventListener(b,
