@@ -1,8 +1,5 @@
 User-Agent: *
 
-Disallow: /404.html
-Disallow: /_config.yml
-Disallow: /_data/
-Allow: /
+Disallow:
 
 sitemap: https://abdelhafidelazouzi.github.io/sitemap.xml
