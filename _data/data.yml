@@ -130,7 +130,7 @@ career-objectif:
 career-profile:
     title: "Résumé de carrière"
     summary: |
-      Passionné par les réseaux informatiques <strong>(infrastructure, administration, système et sécurité),</strong> avec une expérience pertinente de plus de <script><script>var datenew = new Date(); var calcdate = datenew.getUTCFullYear(); var globyears = calcdate - 2012; document.write(globyears);</script> ans dans ces domaines.
+      Passionné par les réseaux informatiques <strong>(infrastructure, administration, système et sécurité),</strong> avec une expérience pertinente de plus de <script>var datenew = new Date(); var calcdate = datenew.getUTCFullYear(); var globyears = calcdate - 2012; document.write(globyears);</script> ans dans ces domaines.
       Mon sens de l'engagement et ma capacité à atteindre des objectifs ambitieux sont reconnus.
       J'ai participé à la réalisation de grands projets d'installation, migration, configuration et de conception avec des excellents résultats en matière d'efficacité et de rapidité.
       <br><br>
