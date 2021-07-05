@@ -1,5 +1,4 @@
 User-Agent: *
-
 Disallow:
 
 sitemap: https://abdelhafidelazouzi.github.io/sitemap.xml
