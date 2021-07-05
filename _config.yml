@@ -7,13 +7,11 @@ keywords: "Abdelhafid ELAZOUZI, Portfolio, Analyste et consultant en informatiqu
 analytics: "UA-199735645-1"
 verify: "UBHEw2OWbJuHMqzK_5LRpME17sOjjl57LB7MHidKA6E"
 bing: "D071D7A049FA7A7AAD1444365043C95B"
-day: "06/07/2021"
 
 # Development Settings
 port: 4000
 # host: 172.20.10.3
 # host: 100.100.100.1
-# host: 192.168.100.110
 host: 192.168.1.100
 # host: 192.168.1.101
 # host: 192.168.1.200
