@@ -2,4 +2,3 @@ User-Agent: *
 Disallow:
 
 sitemap: https://abdelhafidelazouzi.github.io/sitemap.xml
-sitemap: https://abdelhafidelazouzi.github.io/sitemap-index.xml
