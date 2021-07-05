@@ -4,10 +4,10 @@ baseurl: "/"
 description: "Découvrez mon portfolio, une vitrine où je présente mon parcours dans les domaines des systèmes et réseaux informatiques. Cliquez pour en savoir plus !."
 keywords: "Abdelhafid ELAZOUZI, Portfolio, Analyste et consultant en informatique, Analyste et consultant en infrastructure, Analyste et consultant en réseau informatique, Administrateur Linux, Administrateur des systèmes, Administrateur des réseaux informatiques, CV, Technicien en réseaux informatiques, CV de Abdelhafid ELAZOUZI, Portfolio de Abdelhafid ELAZOUZI"
 
-analytics: "G-YCTV1NZ3CK"
-verify: "123"
+analytics: "UA-199735645-1"
+verify: "UBHEw2OWbJuHMqzK_5LRpME17sOjjl57LB7MHidKA6E"
 bing: "D071D7A049FA7A7AAD1444365043C95B"
-day: "30/06/2021"
+day: "06/07/2021"
 
 # Development Settings
 port: 4000
