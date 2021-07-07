@@ -129,14 +129,20 @@ career-objectif:
 #############################################################################################
 career-profile:
     title: "Résumé de carrière"
-    summary: |
-      Passionné par les réseaux informatiques <strong>(infrastructure, administration, système et sécurité),</strong> avec une expérience pertinente de plus de 10 ans dans ces domaines.
-      Mon sens de l'engagement et ma capacité à atteindre des objectifs ambitieux sont reconnus.
-      J'ai participé à la réalisation de grands projets d'installation, migration, configuration et de conception avec des excellents résultats en matière d'efficacité et de rapidité.
-      <br><br>
-      Je possède une formation polyvalente et de l'expertise dans <strong>la gestion des services et des équipements réseaux</strong> et je manipule les systèmes et <strong>les solutions basées sur Linux parfaitement.</strong>
-      Ainsi je peux combiner plusieurs environnements hétérogènes avec différents concepts.
-      Je n'hésite pas à partager mes connaissances avec les autres et je sais bien évaluer le temps nécessaire pour compléter les projets à terme.
+    summary:
+      - det: <em>Passionné par les réseaux informatiques</em>
+      - det: <strong>(infrastructure, administration, système et sécurité).</strong>
+      - det: <span>Avec une expérience pertinente de plus de <code></code> ans dans ces domaines.</span>
+      - det: <em>Mon sens de l'engagement et ma capacité à atteindre des objectifs ambitieux sont reconnus.</em>
+      - det: <em>J'ai participé durant mon parcours professionnel à la réalisation de différents projets</em>
+      - det: <strong>d'installation, migration, configuration et de conception.</strong>
+      - det: <br><br>
+      - det: <em>Je possède une formation polyvalente et de l'expertise dans</em>
+      - det: <strong>la gestion des services et des équipements réseaux.</strong>
+      - det: <em>Je manipule</em>
+      - det: <strong>les systèmes et les solutions basées sur Linux parfaitement.</strong>
+      - det: <em>Ainsi je peux combiner plusieurs environnements hétérogènes avec différents concepts.</em>
+      - det: <span>Je n'hésite pas à partager mes connaissances avec les autres et je sais bien évaluer le temps nécessaire pour compléter les projets à terme.</span>
 #############################################################################################
 #######################################  Formations  ########################################
 #############################################################################################
