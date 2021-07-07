@@ -4,6 +4,7 @@ a {border-top: 1px solid transparent;border-bottom: 1px solid transparent;paddin
 svg {position: relative;margin-right: 10px;fill: #458cff;float: left;transition: .2s;-webkit-transition: .2s;-moz-transition: .2s;-ms-transition: .2s;-o-transition: .2s;}
 img {transition: .2s;-webkit-transition: .2s;-moz-transition: .2s;-ms-transition: .2s;-o-transition: .2s;border: 0;}
 ul, li {display: table;}
+em {font-style: normal;}
 @keyframes m1 { 0% {fill: #f5f5f5; } 100% {fill: #458cff; } }
 @-webkit-keyframes m1 { 0% {fill: #f5f5f5; } 100% {fill: #458cff; } }
 @-moz-keyframes m1 { 0% {fill: #f5f5f5; } 100% {fill: #458cff; } }
