@@ -1,2 +1,3 @@
 User-Agent: *
 Allow: /
+sitemap: https://abdelhafidelazouzi.github.io/sitemap.xml
