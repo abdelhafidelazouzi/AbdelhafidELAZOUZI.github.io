@@ -6,7 +6,7 @@
     <h2 class="section-title">{{ site.data.data.edu }}</h2>
   </div>
   <div class="puce">{% for graduation in education %}<svg class="edu-svg-form{{ forloop.index }}"><circle cx="5" cy="5" r="5" /></svg><p class="b200 edu-form{{ forloop.index }}"></p>{% endfor %}</div>
-{{ site.time | date: '%y' }}
+
   <div class="m2">
     {% for graduation in education %}
       <div class="item div-edu{{ forloop.index }}">
