@@ -132,7 +132,8 @@ career-profile:
     summary:
       - det: <em>Passionné par les réseaux informatiques</em>
       - det: <strong>(infrastructure, administration, système et sécurité).</strong>
-      - det: <span>Avec une expérience pertinente de plus de 10 ans dans ces domaines.</span>
+      - det: <span>Avec une expérience pertinente de plus de</span>
+      - det: <span>ans dans ces domaines.</span>
       - det: <em>Mon sens de l'engagement et ma capacité à atteindre des objectifs ambitieux sont reconnus.</em>
       - det: <em>J'ai participé durant mon parcours professionnel à la réalisation de différents projets</em>
       - det: <strong>d'installation, migration, configuration et de conception.</strong>
@@ -142,7 +143,8 @@ career-profile:
       - det: <em>Je manipule</em>
       - det: <strong>les systèmes et les solutions basées sur Linux parfaitement.</strong>
       - det: <em>Ainsi je peux combiner plusieurs environnements hétérogènes avec différents concepts.</em>
-      - det: <span>Je n'hésite pas à partager mes connaissances avec les autres et je sais bien évaluer le temps nécessaire pour compléter les projets à terme.</span>
+      - det: <span>Je n'hésite pas à partager mes connaissances avec les autres</span>
+      - det: <span>et je sais bien évaluer le temps nécessaire pour compléter les projets à terme.</span>
 #############################################################################################
 #######################################  Formations  ########################################
 #############################################################################################
