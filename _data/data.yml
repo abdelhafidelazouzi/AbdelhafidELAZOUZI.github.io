@@ -655,7 +655,7 @@ skills:
       - name: "Automatisation des tâches avec des scripts (Batch MS-DOS & Bash Shell)"
       - name: "Cloud computing & stockage RAID"
       - name: "Réseaux (LAN/WLAN/WAN/DMZ)"
-      - name: "Réseaux (Privés/Publics)"
+      - name: "Réseaux (Privés/Publiques)"
       - name: "Intranet/extranet/internet"
       - name: "Sauvegarde/restauration"
       - name: "Adressage (CIDR/VLSM)"
