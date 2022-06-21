@@ -9,7 +9,7 @@ sidebar:
 #################################  Profile information  #####################################
 #############################################################################################
     tagline0: "Analyste et consultant en (Informatique | Réseau | Infrastructure | Architecture)"
-    tagline1: "Administrateur des systèmes et des réseaux informatiques (Linux | Cisco)"
+    tagline1: "Administrateur des réseaux informatiques, des systèmes et des services sous Linux"
     htmllang: "fr-FR"
     fr: "Français"
     en: "English"
@@ -25,7 +25,7 @@ sidebar:
 #############################################################################################
     lic: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
     design: "Désigné par Abdelhafid ELAZOUZI"
-    droit: "Tous droits réservés  &copy; 2020"
+    droit: "Tous droits réservés  &copy; 2021"
     cont: "Le contenu du portfolio est mise à disposition selon <br>les termes de la licence Creative Commons"
     licence2: "Attribution à Abdelhafid ELAZOUZI"
     licence1: "Pas d'utilisation commerciale"
@@ -67,10 +67,12 @@ sidebar:
 #############################################################################################
     inter: "Centres d'intérêt"
     interests:
+      - item: "Jeu de construction LEGO"
       - item: "Veille technologique"
       - item: "Mixage musical"
       - item: "Jeux vidéo"
       - item: "Bricolage"
+      - item: "Soccer"
 
     apti: "Aptitudes"
     aptes:
@@ -80,7 +82,6 @@ sidebar:
       - idiom: "Intégration et adaptation facile"
       - idiom: "Responsable et actif au travail"
       - idiom: "Esprit d'équipe et d'initiative"
-      - idiom: "Enthousiaste"
       - idiom: "Persévérant"
       - idiom: "Dynamique"
       - idiom: "Autonome"
@@ -88,10 +89,11 @@ sidebar:
       - idiom: "Minutieux"
       - idiom: "Sociable"
       - idiom: "Curieux"
+      - idiom: "Motivé"
 
     ben: "Activités bénévoles"
     beneves:
-      - time: "01/2012 à ce jour"
+      - time: "01/2012 à 07/2022"
         company: "École Nationale des Sciences Appliquées (Marrakech) - Maroc, Université Cadi Ayyad"
         details:
          - task: "Guider et aider les stagiaires dans la rédaction technique de leurs mémoires de fin d'études"
@@ -99,11 +101,14 @@ sidebar:
 
     comp: "Informations complémentaires"
     complemes:
-      - info: "Permis de conduire Marocaine"
+      - info: "Permis de conduire Marocain"
         corp: "Catégorie (B) émis le 13/06/2013"
 
-      #- info: "Certificat de sélection du Québec"
-      #  corp: "Catégorie des travailleurs qualifiés, émis le 05/12/2018"
+      # - info: "Permis de conduire québécois"
+        # corp: "Classe 5 émis le 13/06/2023"
+
+      # - info: "Évaluation comparative des études effectuées hors du Québec"
+        # corp: "Émis le 05/07/2022"
 
       - info: "Activités extra professionnelles"
         details:
@@ -114,37 +119,42 @@ sidebar:
         details:
          - task: "2010/2011 : Préparer les ateliers et présider le comité d'organisation de la journée LINUX PARTY à l'ISTA NTIC SYBA (Marrakech) - Maroc"
 #############################################################################################
-################################  Objectif de carrière  #####################################
-#############################################################################################
-career-objectif:
-    title: "Objectif de carrière"
-    summary: |
-      Muni d’un savoir-faire divers et d’un bagage technique très riche et varié.
-      <strong>Souhaitant mettre à profit mes compétences, mes aptitudes et mes talents dans un environnement de travail positif et professionnel.</strong>
-      <br><br>
-      Assoiffé par l’apprentissage et l’autoformation, prêt pour les nouveaux défis et motivé pour les nouvelles opportunités.
-      <strong>Intéressé par l’administration des réseaux, le design des infrastructures, l’enseignement et le Web design.</strong>
-#############################################################################################
 ################################  Résumé de carrière  #######################################
 #############################################################################################
 career-profile:
     title: "Résumé de carrière"
     summary:
-      - det: <em>Passionné par les réseaux informatiques</em>
-      - det: <strong>(infrastructure, administration, système et sécurité).</strong>
-      - det: <span>Avec une expérience pertinente de plus de</span>
-      - det: <span>ans dans ces domaines.</span>
-      - det: <em>Mon sens de l'engagement et ma capacité à atteindre des missions et des objectifs ambitieux sont reconnus.</em>
-      - det: <em>J'ai participé durant mon parcours professionnel à la réalisation de différents projets</em>
-      - det: <strong>d'installation, migration, configuration et de conception.</strong>
-      - det: <br><br>
-      - det: <em>Je possède une formation polyvalente et de l'expertise dans</em>
-      - det: <strong>la gestion des services et des équipements réseaux.</strong>
-      - det: <em>Je manipule</em>
-      - det: <strong>les systèmes et les solutions basées sur Linux parfaitement.</strong>
-      - det: <em>Ainsi je peux combiner plusieurs environnements hétérogènes avec différents concepts.</em>
-      - det: <span>Je n'hésite pas à partager mes connaissances avec les autres</span>
-      - det: <span>et je sais bien évaluer le temps nécessaire pour compléter les projets à terme.</span>
+            - det: <b>Passionné par les réseaux informatiques</b>
+            - det: <strong>(infrastructure, administration, système et sécurité)</strong><b>.</b>
+            - det: <b>Avec une expérience pertinente de plus de</b>
+            - det: <strong class="oldtime1"></strong>
+            - det: <script>var datenew = new Date(); var calcdate = datenew.getUTCFullYear(); var yyyy = calcdate - 2012; $(".oldtime1").text(yyyy);</script>
+            - det: <strong>ans</strong>
+            - det: <b>dans ces domaines.</b>
+            - det: <b>Mon sens de l'engagement et ma capacité à atteindre des objectifs ambitieux sont reconnus.</b>
+            - det: <b>J'ai participé durant mon parcours professionnel à la réalisation de différents projets</b>
+            - det: <strong>d'installations, câblages, migrations, qualifications, configurations et de conceptions</strong><b>.</b>
+            - det: <br><br>
+            - det: <b>Je possède une formation polyvalente et de l'expertise dans</b>
+            - det: <strong>la gestion des services et des équipements réseaux</strong><b>.</b>
+            - det: <b>Je manipule</b>
+            - det: <strong>les systèmes et les solutions basées sur Linux parfaitement</strong><b>.</b>
+            - det: <b>Par conséquent je peux combiner plusieurs environnements hétérogènes avec différents concepts.</b>
+            - det: <b>Je n'hésite pas à partager mes connaissances avec les autres et</b>
+            - det: <b>je sais bien évaluer le temps nécessaire pour compléter les projets à terme.</b>
+#############################################################################################
+################################  Objectif de carrière  #####################################
+#############################################################################################
+career-objectif:
+    title: "Objectif de carrière"
+    summary: |
+        <b>Muni d’un <strong>savoir-faire divers et d’un bagage technique très riche et varié</strong>.
+        Souhaitant mettre à profit mes compétences, mes aptitudes et mes talents dans un environnement de travail positif et professionnel.
+        De ce fait je veux <strong>participer activement dans la gestion, le contrôle et l’amélioration continue des infrastructures TI.</strong>
+        <br><br>
+        Assoiffé par l’apprentissage et l’autoformation, motivé et prêt pour les nouveaux défis, à l'écoute de nouvelles opportunités.
+        <strong>Intéressé par l’administration des réseaux, le design des infrastructures, l'enseignement professionnel du métier et le Web design.</strong>
+        Capable de travailler à distance ou en présentiel.</b>
 #############################################################################################
 #######################################  Formations  ########################################
 #############################################################################################
@@ -157,18 +167,23 @@ education:
               - dipname: "Introduction to Cybersecurity"
                 linkdip: "en-AbdelhafidELAZOUZI-Introduction to Cybersecurity.pdf"
               - dipname: "Cybersecurity Essentials"
-                linkdip: "en-AbdelhafidELAZOUZI-Cybersecurity Essentials.pdf"
+                linkdip: "en-AbdelhafidELAZOUZI-NDG Linux Essent-certificate.pdf"
               - dipname: "NDG Linux Unhatched"
+                linkdip: "en-AbdelhafidELAZOUZI-Cybersecurity Essentials.pdf"
+              - dipname: "NDG Linux Essentials"
                 linkdip: "en-AbdelhafidELAZOUZI-NDG Linux Unhatc-certificate.pdf"
               - dipname: "Introduction to IoT"
                 linkdip: "en-AbdelhafidELAZOUZI-Introduction to IoT.pdf"
+              - dipname: "CCNAv7 Bridging"
+                linkdip: "en-AbdelhafidELAZOUZI-CCNAv7 Bridgin.pdf"
 
     - degree: "Licence Professionnelle en Réseaux et Sécurité des Systèmes Informatiques"
       linkdeg: "http://candidaturelp-fssm.uca.ma/filieres/LP-R2SI_Presentation.pdf"
       university: "Faculté des Sciences Semlalia (Marrakech) - Maroc, Université Cadi Ayyad"
       linkuniv: "https://www.uca.ma/fssm"
       time: "09/2018 à 07/2019"
-      #equiv: "Équivalence au Québec : Baccalauréat spécialisé, 1er cycle universitaire"
+      # equiv: "Équivalence au Québec : Baccalauréat spécialisé, 1er cycle universitaire"
+      # height animation
       mention: "Mention : Bien"
       prix: "Prix : Majeure de la promotion"
 
@@ -176,15 +191,15 @@ education:
       university: "Le Centre des Langues et des Cultures (Marrakech) - Maroc"
       linkuniv: "https://www.clcmorocco.org"
       time: "04/2015 à 06/2018"
-      equiv: "Équivalence CEFR : B1"
       mention: "Niveau : Intermédiaire 6"
+      prix: "Équivalence CEFR : B1"
 
     - degree: "Technicien Spécialisé en Techniques des Réseaux Informatiques"
       linkdeg: "https://www.ofppt.ma/fr/filieres-de-formations/techniques-des-reseaux-informatiques"
       university: "Institut Spécialisé de Technologie Appliquée NTIC Sidi Youssef Ben Ali (Marrakech) - Maroc, OFPPT"
       linkuniv: "https://www.ofppt.ma/fr/etablissements/institut-specialise-de-technologie-appliquee-ntic-sidi-youssef-ben-ali-marrakech"
       time: "09/2009 à 07/2011"
-      #equiv: "Équivalence au Québec : Diplôme d'études collégiales techniques"
+      # equiv: "Équivalence au Québec : Diplôme d'études collégiales techniques"
       mention: "Mention : Très bien"
       prix: "Prix : Majeure de la promotion et des classes d'excellences"
 #############################################################################################
@@ -192,6 +207,24 @@ education:
 #############################################################################################
 cert: "Certifications"
 certif:
+    - degree: "LinkedIn Learning"
+      linkdeg: "https://www.linkedin.com/learning"
+      time: "Depuis le 09/2021"
+      details:
+              - certname: "Devenir administrateur / administratrice système Windows Server 2019"
+                linkcert: "AbdelhafidELAZOUZI-Devenir administrateur - administratrice systeme Windows Server 2019.pdf"
+              - certname: "Devenir développeur / développeuse web frontend"
+                linkcert: "AbdelhafidELAZOUZI-Devenir developpeur - developpeuse web frontend.pdf"
+              - certname: "Devenir administrateur / administratrice réseau"
+                linkcert: "AbdelhafidELAZOUZI-Devenir administrateur - administratrice réseau.pdf"
+
+    - degree: "Techcanvass Academy"
+      linkdeg: "https://techcanvass.com/Courses/DevOps-certification-managers-business-analysts.aspx"
+      time: "09/2021 à 10/2021"
+      details:
+              - certname: "DevOps Certification"
+                linkcert: "AbdelhafidELAZOUZI-DevOps Certification.pdf"
+
     - degree: "CSF (Cyber Security Foundation) - Certiprof"
       linkdeg: "https://certiprof.com/pages/cyber-security-foundation-csfpc"
       time: "11/2020 à 12/2020"
@@ -313,9 +346,21 @@ certif:
 #############################################################################################
 exp: "Expériences professionnelles"
 experiences:
+    # - role: ""
+    #   linkrole: "https://fr.wikipedia.org/wiki/Administrateur_réseau"
+    #   time: "08/2022 à ce jour"
+    #   company: ""
+    #   linkcomp: "https://www.ensa.ac.ma"
+    #   title: ""
+    #   details:
+    #           - task: ""
+    #           - task: ""
+    #           - task: ""
+    #           - task: ""
+
     - role: "Administrateur système et réseau"
       linkrole: "https://fr.wikipedia.org/wiki/Administrateur_réseau"
-      time: "Du 01/2012 à ce jour"
+      time: "01/2012 à 07/2022"
       company: "École Nationale des Sciences Appliquées (Marrakech) - Maroc, Université Cadi Ayyad"
       linkcomp: "https://www.ensa.ac.ma"
       title: "Gérer le service Informatique et Réseau de l'établissement"
@@ -336,10 +381,10 @@ experiences:
       company: "Institut de communication visuelle et développement humain SCIENCES COM (Marrakech) - Maroc"
       title: "Assurer des formations accélérées et des cours de soutien dans les modules"
       details:
-              - task: "Cisco CCNA V4"
-              - task: "Outils bureautiques"
-              - task: "Administration Linux"
-              - task: "Maintenance des ordinateurs"
+              - task: "Administration des services réseaux sous linux"
+              - task: "Système d'exploitation open source"
+              - task: "Maintenance informatique"
+              - task: "Cisco CCNA V4 (1,2,3 et 4)"
 #############################################################################################
 #################################  Stages professionnelles  #################################
 #############################################################################################
@@ -493,30 +538,6 @@ skills:
         level: "Créer et intégrer les maquettes"
 
     toolset3:
-      title: "Câblage des réseaux informatiques"
-      nt:
-      - name: "Fixer, serrer et ajuster les goulottes, plinthes, flexibles armés, chemins des câbles, armoires, boîtes étanches"
-      - name: "Tirer, câbler, repérer et tester les câbles en cuivre paires torsadées et les câbles en fibres optiques"
-      - name: "Monter, organiser et brancher les équipements actifs tels que"
-        level1: "Switches, Routeurs, Pares-feux, Serveurs, Modules SFP, Baies de stockages, Adaptateurs d'alimentation PoE"
-        level2: "Convertisseurs optiques, Onduleurs avec prises et blocs de courants, Switches KVM avec consoles LCD"
-      - name: "Étiqueter, arranger, raccorder et relier les équipements passifs tels que"
-        level1: "Cordons de brassages/liaisons, Jarretières SM/MM, Étagères coulissantes en rails, Connecteurs et prises RJ45"
-        level2: "Passes câbles, Panneaux de brassages, Tiroirs optiques avec traversées, Supports de montage en rack"
-
-    toolset13:
-      title: "Câblage électrique basse tension (Notions intermédiaires)"
-      nt:
-      - name: "Raccorder les éléments des tableaux électriques (blocs et bornes de jonction, Barrettes de mise à la terre, répartiteurs) avec les prises de courant 2P+T"
-      - name: "Désigner l'intensité des distributeurs (Interrupteurs, disjoncteurs compacts et disjoncteurs différentiels) avec les sections des câbles électriques"
-
-    toolset14:
-      title: "Câblage & configuration des caméras de surveillance (Notions intermédiaires)"
-      nt:
-      - name: "Installer les caméras IP et analogiques avec le bloc alimentation CCTV (Closed Circuit TeleVision)"
-      - name: "Configurer les DVR et NVR de marque (HIKVISION)"
-
-    toolset4:
       title: "Connaissances approfondies dans les programmes des certificats"
       nt:
       - name: "LPIC"
@@ -528,7 +549,31 @@ skills:
       - name: "Cisco CCNA"
         level: "Routing & Switching, Security"
 
+    toolset4:
+      title: "Câblage des réseaux informatiques"
+      nt:
+      - name: "Fixer, serrer et ajuster les goulottes, plinthes, flexibles armés, chemins des câbles, armoires, boîtes étanches"
+      - name: "Tirer, câbler, repérer et tester les câbles en cuivre paires torsadées et les câbles en fibres optiques"
+      - name: "Monter, organiser et brancher les équipements actifs tels que"
+        level1: "Switches, Routeurs, Pares-feux, Serveurs, Modules SFP, Baies de stockages, Adaptateurs d'alimentation PoE"
+        level2: "Convertisseurs optiques, Onduleurs avec prises et blocs de courants, Switches KVM avec consoles LCD"
+      - name: "Étiqueter, arranger, raccorder et relier les équipements passifs tels que"
+        level1: "Cordons de brassages/liaisons, Jarretières SM/MM, Étagères coulissantes en rails, Connecteurs et prises RJ45"
+        level2: "Passes câbles, Panneaux de brassages, Tiroirs optiques avec traversées, Supports de montage en rack"
+
     toolset5:
+      title: "Câblage & configuration des caméras de surveillance (Notions intermédiaires)"
+      nt:
+      - name: "Installer les caméras IP et analogiques avec le bloc alimentation CCTV (Closed Circuit TeleVision)"
+      - name: "Configurer les DVR et NVR de marque (HIKVISION)"
+
+    toolset6:
+      title: "Câblage électrique basse tension (Notions intermédiaires)"
+      nt:
+      - name: "Raccorder les éléments des tableaux électriques (blocs et bornes de jonction, Barrettes de mise à la terre,<br>répartiteurs) avec les prises de courant 2P+T"
+      - name: "Désigner l'intensité des distributeurs (Interrupteurs, disjoncteurs compacts et disjoncteurs différentiels)<br>avec les sections des câbles électriques"
+
+    toolset7:
       title: "Développements & langages de programmation"
       nt:
       - name: "Paradigmes de programmation"
@@ -540,80 +585,103 @@ skills:
       - name: "Langage de base de données relationnelle"
         level: "SQL (Notions de base)"
       - name: "Langages de programmation"
-        level: "Java, C (Notions de base)"
+        level: "Java, C, Python (Notions de base)"
 
-    toolset6:
-      title: "Logiciels maitrisés"
+    toolset8:
+      title: "Logiciels & outils maitrisés"
       nt:
       - name: "Télémaintenance & administration en CLI"
-        level: "Team Viewer, DWService, Super PuTTY, mRemotNG"
+        level: "Team Viewer, DWService, Super PuTTY, AnyDesk"
       - name: "Adobe Creative Cloud"
         level: "Photoshop, Illustrator, Adobe XD, Dreamweaver, Acrobat Pro DC"
+      - name: "Émulateur & simulateur des réseaux"
+        level: "GNS3, Cisco Packet Tracer, EVE-NG, Pnet Lab"
+      - name: "Hyperviseurs type 2"
+        level: "Virtual Box, VMware Workstation, Hyper-V, QEMU emulator"
       - name: "Microsoft Office"
         level: "Access, Word, Publisher, Excel, PowerPoint, Visio, Outlook"
+      - name: "Virtualisation des applications"
+        level: "VMware ThinApp, Zero Install"
       - name: "Hyperviseurs type 1"
-        level: "VMware ESXi (VSphere), Hyper-V (Server), Proxmox VE"
-      - name: "Hyperviseurs type 2"
-        level: "Virtual Box, VMware Workstation Pro, QEMU emulator"
+        level: "VMware ESXi, Proxmox VE"
       - name: "Éditeurs de code"
-        level: "Atom, Notepad++, Sublime Text, Visual Studio Code"
-      - name: "Émulateur & simulateur des réseaux"
-        level: "GNS3, Cisco Packet Tracer"
+        level: "Atom, Visual Studio Code"
+      - name: "Clients légers"
+        level: "MS RDP, Winflector"
 
-    toolset7:
-      title: "Environnements de travail libre Linux & outils open source maitrisés"
+    toolset9:
+      title: "Réseaux"
       nt:
-      - name: "Automatisation des tâches de test, d'installation et de configuration"
-        level: "Ansible (PoleMarch, Ansible AWX)"
-      - name: "Supervision NMS"
-        level: "Nagios Core, NagiosQL, Net-Snmp, Zabbix, MRTG, PNP4Nagios, Nagvis, Centreon"
+      - name: "Automatisation des taches avec les scripts (Batch MS-DOS & Bash Shell)"
+      - name: "Contrôleur d'accès aux réseaux (Autorisation des accès & Portail captive)"
+      - name: "Typologies (LAN/WLAN/WAN/DMZ)"
+      - name: "Politique & sécurité des réseaux"
+      - name: "Client/serveur & Maître/esclave"
+      - name: "Stockage en réseau & en RAID"
+      - name: "Réseaux (Privées/Publiques)"
+      - name: "Authentification centralisée"
+      - name: "Intranet/extranet/internet"
+      - name: "Sauvegarde/restauration"
+      - name: "Routage & commutation"
+      - name: "Adressage (CIDR/VLSM)"
+      - name: "Réseaux IP (IPV4/IPV6)"
+      - name: "Modèle OSI & TCP/IP"
+      - name: "Cloud computing"
+      - name: "Ethernet"
+
+    toolset10:
+      title: "Architectures"
+      nt:
+      - name: "Topologies (Physiques/Logiques/Applicatives)"
+      - name: "Tolérance aux pannes & agrégation de liens"
+      - name: "Équilibrage de charge & haute disponibilité"
+      - name: "Hyper convergence en cluster"
+      - name: "Basculement automatique"
+      - name: "Réplication/redondance"
+
+    toolset11:
+      title: "Environnements de travail libre sous Linux & solutions open source maitrisés"
+      nt:
       - name: "Authentification LDAP"
         level: "Fusion Directory, Ldap Tool Box, Apache Directory Studio, phpLDAPadmin"
-      - name: "Outils de sécurité"
-        level: "OpenSSL, Ntop, Portsentry, Snort, GnuPg, Zenmap, Wireshark, SSHGuard"
+      - name: "Automatisation des tâches d'installation et de configuration"
+        level: "Ansible (PoleMarch, Ansible AWX)"
       - name: "Autorités de validation et de signature des certificats SSL/TLS"
         level: "Let's Encrypt, ZeroSSL"
       - name: "Annuaires d'authentification"
         level: "Univention Corporate Server, 389 DS, Keycloak, Freeipa"
-      - name: "Éditeurs d'images matricielles et vectorielles"
-        level: "GIMP, Krita, Vectr, Inkscape"
+      - name: "Outils de sécurité"
+        level: "OpenSSL, Portsentry, Snort, Zenmap, Wireshark, SSHGuard"
+      - name: "Supervision avec Nagios"
+        level: "Nagios Core, NagiosQL, Nagvis, PN4Nagios (RRDtool)"
       - name: "Clonage de disque via le réseau avec PXE"
         level: "DCS DRBL Clonezilla Server"
+      - name: "Supervision NMS"
+        level: "Centreon, Net-Snmp, MRTG, LibreNMS, Observium"
 
       - name: "Administration Web UI pour serveurs"
         level: "Webmin, Ajenti"
-      - name: "Synchronisation automatique des fichiers"
-        level: "Syncthing"
       - name: "SGBDR"
         level: "MySQL, PostgreSQL (phpMyAdmin, PgAdmin)"
-      - name: "Journalisation d'évènements"
-        level: "Rsyslog (Log Analyzer)"
       - name: "Inventaire des équipements"
         level: "OCS Inventory, Ralph"
-      - name: "Authentification SSO"
-        level: "LemonLDAP NG, Shibboleth"
-      - name: "Serveurs Web"
-        level: "WampServer, Httpd, Apache, Nginx"
-      - name: "Suites Bureautiques"
-        level: "Open Office, Libre Office"
+      - name: "Helpdesk/gestion des tickets"
+        level: "Glpi, GestSup"
+
       - name: "Gestion de classe informatique"
         level: "Veyon"
-      - name: "Réservation des locaux"
-        level: "GRR, MRBS"
+      - name: "Serveurs Web"
+        level: "Httpd, Apache, Nginx"
       - name: "Stockage en cloud SaaS"
         level: "OwnCloud"
+      - name: "Analyseur du trafic réseau"
+        level: "NtopNG"
       - name: "Stockage en réseau NAS"
         level: "FreeNAS"
       - name: "Notification SMS/GSM"
         level: "GAMMU"
-      - name: "VLANs dynamiques"
-        level: "OpenVMPS"
-      - name: "Visioconférence"
-        level: "BigBlueButton"
       - name: "Plateforme E-learning"
         level: "Moodle"
-      - name: "NAC"
-        level: "PckaetFence, fusionauth"
       - name: "Conteneur"
         level: "Docker (Portainer)"
       - name: "Serveurs DNS"
@@ -624,45 +692,6 @@ skills:
         level: "Pfsense, Iptables"
       - name: "Routeurs"
         level: "Quagga, Vyatta"
-      - name: "Helpdesk"
-        level: "Glpi, GestSup"
-      - name: "IDE"
-        level: "NetBeans, Eclipse"
-
-    toolset8:
-      title: "Architectures & topologies"
-      nt:
-      - name: "Tolérance aux pannes & agrégation de liens"
-      - name: "Équilibrage de charge & haute disponibilité"
-      - name: "Clients légers basés sur MS RDP"
-      - name: "Topologies (Physiques/Logiques)"
-      - name: "Client/Serveur & Maître/Esclave"
-      - name: "Hyper convergence en cluster"
-      - name: "Basculement automatique"
-      - name: "Réplication & redondance"
-
-    toolset9:
-      - name: "Administration des équipements & protocoles réseaux"
-        level: "STP, VTP, CDP, LLDP, EtherChannel, Port Security, VLAN, VMPS, <br>802.1Q, 802.1x, DHCP, HSRP, NAT, PPP, Frame Relay, RIP, EIGRP, OSPF, ACL, IPSEC, SSH, SNMP, HTTPS, AAA"
-
-    toolset10:
-      - name: "Administration des services & protocoles réseaux"
-        level: "HTTP/HTTPS, FTP/SFTP, RADVD, DHCP, OpenVPN, PKI, DNS, DDNS, <br>SSH, SCP, Samba, NFS, Postfix, KDC Kerberos, Syslog, Active Directory/OpenLDAP, FreeRADIUS, RDP/VNC"
-
-    toolset11:
-      title: "Réseaux"
-      nt:
-      - name: "Automatisation des tâches avec des scripts (Batch MS-DOS & Bash Shell)"
-      - name: "Cloud computing & stockage RAID"
-      - name: "Réseaux (LAN/WLAN/WAN/DMZ)"
-      - name: "Réseaux (Privés/Publiques)"
-      - name: "Intranet/extranet/internet"
-      - name: "Sauvegarde/restauration"
-      - name: "Adressage (CIDR/VLSM)"
-      - name: "Réseaux IP (IPV4/IPV6)"
-      - name: "NAC & Portail captive"
-      - name: "Modèles OSI, TCP/IP"
-      - name: "Ethernet"
 
     toolset12:
       title: "Équipements maitrisés"
@@ -673,6 +702,8 @@ skills:
         level: "OmniAccess 4504 WLC / 375AP outdoor, OmniSwitch L3 6850-U24X / L2 6250-P24 PoE"
       - name: "IBM"
         level: "KVM 1754-HC3 LCM8, LCD 7316-TF4"
+      - name: "Huawei"
+        level: "CloudEngine S6730-H24X6C"
       - name: "HPE OfficeConnect"
         level: "1820, 1930 PoE"
       - name: "Aruba"
@@ -681,5 +712,11 @@ skills:
         level: "T1600G, T1700G"
       - name: "Fortinet"
         level: "Fortigate 401E"
-      - name: "D-Link"
-        level: "DGS‑1510‑28X"
+
+    toolset13:
+      - name: "Administration des équipements & protocoles réseaux"
+        level: "STP, VTP, CDP, LLDP, EtherChannel, Port Security, VLAN, VMPS, <br>802.1Q, 802.1x, DHCP, HSRP, NAT, PPP, Frame Relay, RIP, EIGRP, OSPF, ACL, IPSEC, SSH, SNMP, HTTPS, AAA"
+
+    toolset14:
+      - name: "Administration des services & protocoles réseaux"
+        level: "HTTP/HTTPS, FTP/SFTP, RADVD, DHCP, OpenVPN, PKI, DNS, DDNS, <br>SSH, SCP, Samba, NFS, Postfix, KDC Kerberos, Syslog, Active Directory/OpenLDAP, FreeRADIUS, RDP/VNC"
