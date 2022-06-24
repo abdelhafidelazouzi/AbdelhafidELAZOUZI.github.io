@@ -93,7 +93,7 @@ sidebar:
 
     ben: "Activités bénévoles"
     beneves:
-      - time: "01/2012 à 07/2022"
+      - time: "01/2012 à 06/2022"
         company: "École Nationale des Sciences Appliquées (Marrakech) - Maroc, Université Cadi Ayyad"
         details:
          - task: "Guider et aider les stagiaires dans la rédaction technique de leurs mémoires de fin d'études"
@@ -107,8 +107,8 @@ sidebar:
       # - info: "Permis de conduire québécois"
         # corp: "Classe 5 émis le 13/06/2023"
 
-      # - info: "Évaluation comparative des études effectuées hors du Québec"
-        # corp: "Émis le 05/07/2022"
+      - info: "Évaluation comparative des études effectuées hors du Québec"
+        corp: "Émis le 06/06/2022"
 
       - info: "Activités extra professionnelles"
         details:
@@ -182,7 +182,7 @@ education:
       university: "Faculté des Sciences Semlalia (Marrakech) - Maroc, Université Cadi Ayyad"
       linkuniv: "https://www.uca.ma/fssm"
       time: "09/2018 à 07/2019"
-      # equiv: "Équivalence au Québec : Baccalauréat spécialisé, 1er cycle universitaire"
+      equiv: "Équivalence au Québec : Baccalauréat du premier cycle universitaire en sciences de l'informatique"
       # height animation
       mention: "Mention : Bien"
       prix: "Prix : Majeure de la promotion"
@@ -199,7 +199,7 @@ education:
       university: "Institut Spécialisé de Technologie Appliquée NTIC Sidi Youssef Ben Ali (Marrakech) - Maroc, OFPPT"
       linkuniv: "https://www.ofppt.ma/fr/etablissements/institut-specialise-de-technologie-appliquee-ntic-sidi-youssef-ben-ali-marrakech"
       time: "09/2009 à 07/2011"
-      # equiv: "Équivalence au Québec : Diplôme d'études collégiales techniques"
+      equiv: "Équivalence au Québec : Diplôme d'études collégiales en formation technique dans le domaine des techniques de l'informatique"
       mention: "Mention : Très bien"
       prix: "Prix : Majeure de la promotion et des classes d'excellences"
 #############################################################################################
@@ -360,7 +360,7 @@ experiences:
 
     - role: "Administrateur système et réseau"
       linkrole: "https://fr.wikipedia.org/wiki/Administrateur_réseau"
-      time: "01/2012 à 07/2022"
+      time: "01/2012 à 06/2022"
       company: "École Nationale des Sciences Appliquées (Marrakech) - Maroc, Université Cadi Ayyad"
       linkcomp: "https://www.ensa.ac.ma"
       title: "Gérer le service Informatique et Réseau de l'établissement"
